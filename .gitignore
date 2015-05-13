@@ -1,0 +1,13 @@
+.DS_Store
+
+.sass-cache
+bower_components
+node_modules
+
+# Dev related stuff
+/Doc.sublime-project
+/Doc.sublime-workspace
+
+.vagrant/
+/*.pdf
+npm-debug.log

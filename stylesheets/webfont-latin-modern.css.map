@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,UAKC;EAJC,WAAW,EAAE,oBAAoB;EACjC,GAAG,EAAE,oCAAoC;EACzC,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM;AAEpB,UAKC;EAJC,WAAW,EAAE,oBAAoB;EACjC,GAAG,EAAE,iCAAiC;EACtC,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,MAAM",
+"sources": ["webfont-latin-modern.css.scss"],
+"names": [],
+"file": "webfont-latin-modern.css"
+}

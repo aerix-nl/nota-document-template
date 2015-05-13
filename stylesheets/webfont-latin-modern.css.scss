@@ -1,0 +1,26 @@
+// public:      https://www.ctan.org/tex-archive/fonts/lm/fonts/opentype/public/lm
+// or zipped:   http://www.gust.org.pl/projects/e-foundry/latin-modern/download
+@font-face {
+  font-family: "Latin Modern Roman";
+  src: url('../font/lmroman10-regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Latin Modern Roman";
+  src: url('../font/lmroman10-bold.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+// @font-face {
+//   font-family: "Latin Modern Roman";
+//   src: url('../font/lmroman10-italic.otf');
+//   font-style: italic, oblique;
+//   font-style: normal;
+// }
+// @font-face {
+//   font-family: "Latin Modern Roman";
+//   src: url('../font/lmroman10-bolditalic.otf');
+//   font-weight: bold;
+//   font-style: italic, oblique;
+// }

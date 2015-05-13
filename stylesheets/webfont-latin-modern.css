@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Latin Modern Roman";
+  src: url("../font/lmroman10-regular.otf");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Latin Modern Roman";
+  src: url("../font/lmroman10-bold.otf");
+  font-weight: bold;
+  font-style: normal; }
+
+/*# sourceMappingURL=webfont-latin-modern.css.map */

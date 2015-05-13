@@ -1,0 +1,22 @@
+html {
+  background-color: lightgrey; }
+
+body {
+  margin: 35px auto;
+  width: 210mm;
+  background-color: transparent; }
+
+div.page {
+  width: 210mm;
+  height: 297mm;
+  position: relative;
+  margin: 35px auto;
+  background-color: white;
+  -moz-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=preview.css.map */

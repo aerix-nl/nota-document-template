@@ -1,0 +1,28 @@
+@import url(../bower_components/bootstrap/dist/css/bootstrap.css);
+@import url(webfont-latin-modern.css);
+.container {
+  width: auto; }
+
+div.page {
+  padding-bottom: 3cm;
+  color: #1A2C33 !important;
+  font-family: "Latin Modern Roman", Georgia, serif;
+  font-size: 1em;
+  padding: 30mm 30mm; }
+
+div.cover.page {
+  flow-into: content-flow content; }
+
+div.body.page {
+  flow-from: content-flow;
+  region-fragment: break; }
+
+a, .hyperlink {
+  color: #259CCF !important; }
+  a:hover, .hyperlink:hover {
+    color: #15678A !important; }
+
+.muted {
+  color: rgba(26, 44, 51, 0.4) !important; }
+
+/*# sourceMappingURL=styles.css.map */

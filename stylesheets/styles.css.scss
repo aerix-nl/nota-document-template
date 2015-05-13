@@ -1,0 +1,51 @@
+@import '../bower_components/bootstrap/dist/css/bootstrap.css';
+
+@import 'webfont-latin-modern.css';
+@import 'compass';
+
+$primaryOrange: #E38A24;
+$secondaryOrange: #945205;
+
+$primaryBlue: #259CCF;
+$secondaryBlue: #15678A;
+$tertiaryBlue: #1A2C33;
+
+$textColor: $tertiaryBlue;
+
+$fallbackkFontstack: 'Latin Modern Roman', Georgia, serif;
+
+$marginWidth: 30mm;
+$marginHeight: 30mm;
+
+// Override Bootstrap because in this case the body is the container
+.container {
+	width: auto;
+}
+
+div.page {
+  padding-bottom: 3cm;
+	color: $textColor !important;
+	font-family: $fallbackkFontstack;
+	font-size: 1em;
+	padding: $marginHeight $marginWidth;
+}
+
+// Establish content flow
+div.cover.page {
+  flow-into: content-flow content;
+}
+div.body.page {
+  flow-from: content-flow;
+  region-fragment: break
+}
+
+a, .hyperlink {
+	color: $primaryBlue !important;
+	&:hover {
+		color: $secondaryBlue !important;
+	}
+}
+// Override bootstrap
+.muted {
+	color: transparentize($textColor, 0.6) !important;
+}
