@@ -3,6 +3,7 @@
 # Workaround to suppress PhantomJS warnings in certain versions
 Function.prototype.bind ||= ( _this ) -> => @apply(_this, arguments)
 
+# We use requireJS to load dependencies
 requirejs.config {
   baseUrl: '../'
   paths:
