@@ -1,7 +1,10 @@
 {
-"version": 3,
-"mappings": "AAAA,UAGC;EAFC,WAAW,EAAE,iBAAiB;EAC9B,GAAG,EAAE,oEAAoE;AAE3E,UAIC;EAHC,WAAW,EAAE,iBAAiB;EAC9B,GAAG,EAAE,oEAAoE;EACzE,WAAW,EAAE,IAAI;AAEnB,UAIC;EAHC,WAAW,EAAE,iBAAiB;EAC9B,GAAG,EAAE,oEAAoE;EACzE,UAAU,EAAE,eAAe;AAE7B,UAKC;EAJC,WAAW,EAAE,iBAAiB;EAC9B,GAAG,EAAE,qEAAqE;EAC1E,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,eAAe",
-"sources": ["webfont-computer-modern.css.scss"],
-"names": [],
-"file": "webfont-computer-modern.css"
+	"version": 3,
+	"file": "webfont-computer-modern.css",
+	"sources": [
+		"webfont-computer-modern.css.scss"
+	],
+	"sourcesContent": [],
+	"mappings": "AAAA,UAAU;EACR,WAAW,EAAE,iBAAkB;EAC/B,GAAG,EAAE,oEAAG;;AAEV,UAAU;EACR,WAAW,EAAE,iBAAkB;EAC/B,GAAG,EAAE,oEAAG;EACR,WAAW,EAAE,IAAK;;AAEpB,UAAU;EACR,WAAW,EAAE,iBAAkB;EAC/B,GAAG,EAAE,oEAAG;EACR,UAAU,EAAE,eAAgB;;AAE9B,UAAU;EACR,WAAW,EAAE,iBAAkB;EAC/B,GAAG,EAAE,qEAAG;EACR,WAAW,EAAE,IAAK;EAClB,UAAU,EAAE,eAAgB",
+	"names": []
 }
