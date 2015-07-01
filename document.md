@@ -1,12 +1,24 @@
-#LaTeX alternative, HTML based!
-Paragraphs, they flow mighty fine! __Even with other styled inline elements in there__, here comes the filler:
+# LaTeX alternative, HTML based
+Behold, beautiful typography in modern layout. Written  in concise __Markdown__, with content flowing across CSS regions styled to virtual pages. Thanks to the amazing work of [Fremy's polyfill](https://github.com/FremyCompany/css-regions-polyfill). __Mathematics rendering__ provided through [MathJax](http://mathjax.org/) (supports e.g. __TeX__ and __MathML__ syntax) and __Bootstrap__ for UI components and styling. Here comes some filler!
 
 Anthropic considerations do not complete or dust as given a fixed-point semantics for the luminosity. Distances to have. A cosmic. Acceleration these. Objects approaching the treasury program variable in a basic principle of the populations which facilitated. Further encephalization in spatially homogeneous. Spacetimes which reconciles the effects of the subject deal with the motion of ΩM≈0 3 ΩΛ≈0 7 highest redshift known before the objectives of the conclusions that in spatially homogeneous spacetimes which led to be ruled.
+
+<div id="MathDiv">
+<strong>Cauchy's Integral Formula</strong>
+$$\int_{-\infty}^\infty\frac{P(t)}{Q(t)}\ dt = 2\pi i\sum_{j=1}^N \text{Res\,}_{a_j}\frac{P}{Q},$$
+
+where $\{a_j\}_{j=1}^N$ are the distinct zeroes of $Q$ in the upper half plane.
+
+
+$$\left [ – \frac{\hbar^2}{2 m} \frac{\partial^2}{\partial x^2} + V \right ] \Psi = i \hbar \frac{\partial}{\partial t} \Psi$$
+</div>
 
 
 ###Compile PDF?
 Nota is a Node.js package that captures any HTML based document or webapp to PDF, and provides nifty features like watching for changes and automatically recompiling, or runnig a webservice that can render data into documents and download the PDF. Nota also has an API for bulk generation of series of documents like invoices or tickets.
-<a href="https://github.com/aerix-nl/nota" class="btn btn-default btn-lg" href="#" role="button">Learn more</a>
+
+<img src="https://github.com/aerix-nl/nota/raw/master/assets/images/icon.svg" />
+<a href="https://github.com/aerix-nl/nota" class="btn btn-default btn-lg" href="#" role="button">Learn more about Nota</a>
 
 Show how decoherence affects the expansion of light in the chances of cosmic acceleration or dust as well as to parts of relativity could also investigated the motion of the computation and in a pressing issue despite shortcomings general recommendations can exacerbate bias and spin-1/2 particles. In the synthesis procedure has been determined by genetic correlation between brain body. Weights in brain sizes than on population under some simple. Conditions on the study the macroscopic laws of gravitation at the.
 

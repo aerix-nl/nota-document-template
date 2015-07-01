@@ -16,18 +16,27 @@
       'css-regions': '../css-regions-polyfill/css-regions-polyfill',
       'jquery': 'jquery/dist/jquery',
       'marked': 'marked/lib/marked',
-      'text': 'requirejs-text/text'
+      'text': 'requirejs-text/text',
+      'mathjax': 'MathJax/MathJax.js?config=TeX-AMS_HTML-full'
     }
   });
 
-  dependencies = ['jquery', 'css-regions', 'marked', 'text!../document.md'];
+  dependencies = ['jquery', 'css-regions', 'marked', 'mathjax', 'text!../document.md'];
 
-  define(dependencies, function($, css, marked, document) {
-    var html;
+  define(dependencies, function($, css, marked, mathjax, document) {
+    var content;
     console.log("CSS Regions polyfill loaded");
-    html = marked(document);
-    console.log(html);
-    return $('div.cover.page').html(html);
+    content = marked(document);
+    console.log("Markdown parsed");
+    $('div.cover.page').html(content);
+    console.log("Document content inserted");
+    MathJax.Hub.Config({
+      "HTML-CSS": {
+        availableFonts: ["Latin Modern Roman", "TeX"],
+        preferredFont: "TeX"
+      }
+    });
+    return MathJax.Hub.Queue(["Typeset", MathJax.Hub, $('div#MathDiv')[0]]);
   });
 
 }).call(this);
