@@ -1,5 +1,5 @@
 {
-  "name": "latex-document",
+  "name": "aerix-document-nota-template",
   "version": "0.0.1",
   "authors": [
     "Felix Akkermans <felix@aerix.nl"
@@ -15,13 +15,5 @@
     "requirejs": "2.1.15",
     "requirejs-text": "2.0.13",
     "MathJax": "~2.5.3"
-  },
-  "nota": {
-    "defaultFilename": "document.pdf",
-    "paperSize": {
-      "format": "A4",
-      "orientation": "portrait",
-      "border": "0cm"
-    }
   }
 }

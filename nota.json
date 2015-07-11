@@ -1,0 +1,10 @@
+{
+  "name": "aerix-document-nota-template",
+  "modelDriven": false,
+  "defaultFilename": "document.pdf",
+  "paperSize": {
+    "format": "A4",
+    "orientation": "portrait",
+    "border": "0cm"
+  }
+}
