@@ -5,7 +5,8 @@ Anthropic considerations do not complete or dust as given a fixed-point semantic
 
 <div id="MathDiv">
 <strong>Cauchy's Integral Formula</strong>
-$$\int_{-\infty}^\infty\frac{P(t)}{Q(t)}\ dt = 2\pi i\sum_{j=1}^N \text{Res\,}_{a_j}\frac{P}{Q},$$
+
+$$D(B_{p}) = 0, if P(F = 0, B_{p} = r) = P(F = 1, B_{p} = r)$$
 
 where $\{a_j\}_{j=1}^N$ are the distinct zeroes of $Q$ in the upper half plane.
 
@@ -14,7 +15,7 @@ $$\left [ – \frac{\hbar^2}{2 m} \frac{\partial^2}{\partial x^2} + V \right ] \
 </div>
 
 
-###Compile PDF?
+### Compile PDF?
 Nota is a Node.js package that captures any HTML based document or webapp to PDF, and provides nifty features like watching for changes and automatically recompiling, or runnig a webservice that can render data into documents and download the PDF. Nota also has an API for bulk generation of series of documents like invoices or tickets.
 
 <img src="https://github.com/aerix-nl/nota/raw/master/assets/images/icon.svg" />
